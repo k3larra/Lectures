@@ -12,7 +12,7 @@ public class Lecture2 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
-    
+ 
     @Override
     protected void onStart() {
     	// TODO Auto-generated method stub
