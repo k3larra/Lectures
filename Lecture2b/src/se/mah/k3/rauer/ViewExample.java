@@ -23,6 +23,8 @@ public class ViewExample extends Activity implements OnClickListener{
         button.setOnClickListener(this);
     }
 
+
+
 //Interface method from OnClickListener we are forced to 
 //implement this when implementing the  OnClickListerner-interface. 
 	@Override
@@ -33,7 +35,6 @@ public class ViewExample extends Activity implements OnClickListener{
 		//Get the radiobutton
 		RadioButton rb1 = (RadioButton) findViewById(R.id.radio0); 
 		//Compose a message string
-		
 		String s = "Your name is "+ text.getText().toString() +" and you are a ";
 		if (rb1.isChecked()==true){
 			s = s + "man";

@@ -19,7 +19,7 @@ public class Lecture2 extends Activity {
     	super.onStart();
     	Log.i("k3","onStart");
     }
-    
+  
     @Override
     protected void onResume() {
     	// TODO Auto-generated method stub
