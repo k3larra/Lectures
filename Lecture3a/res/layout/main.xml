@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gold">
+<TextView android:text="CountDown" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal" android:layout_marginTop="40dip" android:textSize="17sp" android:textColor="@color/blue"></TextView>
+<TextView android:text="10" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal" android:layout_marginTop="40dip" android:layout_gravity="center_vertical|center_horizontal" android:textSize="70sp" android:textColor="@color/blue"></TextView>
+<Button android:text="Start" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal" android:layout_marginTop="30dip" android:textSize="30sp"></Button>
+<Button android:text="Next" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>
